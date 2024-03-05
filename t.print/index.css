@@ -1,0 +1,111 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+img{
+    margin: 5px;
+    height: 70px;
+}
+body{
+    
+    background-color: rgb(177, 186, 194);
+    
+}
+.body{
+   background-color: #000000;
+   color: #ffffff;
+   display: block;
+   height: 150px;
+
+}
+.print{
+    position: absolute;
+    padding-left: 5px;
+    padding-bottom: 0px;
+    
+    display: grid;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.nylon{
+    font-size: 20px;
+    margin: 50px;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    padding: 10px;
+    width: 70%;
+    text-align: center;
+}
+@media screen and (min-width:700px){
+    .nylon{
+        font-size: 40px;
+        text-align: center;
+
+        
+     }
+    
+}
+.dog{
+    background-color: #0f73ff;
+    margin: 50px;
+    font-size: 70px;
+    color: #ffffff;
+}
+
+.offer{
+    background-color: #0f73ff;
+    margin: 10px;
+    font-size: 20px;
+    width: 60%;
+}
+@media screen and (min-width:700px){
+    .offer{
+        width: 40%;
+        font-size: 30px;
+     }
+    
+}
+.nuel {
+    margin: 10px;
+    padding: 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+    display: block;
+   }
+.nuel ul{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+}
+@media screen and (min-width:700px){
+    .nuel ul{
+        grid-template-columns: repeat(4, 200px);
+     }
+    
+}
+.nuel ul li{
+    margin: 1px;
+    padding: 10px;
+}
+.company{
+   font-size:30px; 
+   margin: 20px;
+   text-transform: capitalize;
+   text-align: center;
+}
+.enroll{
+ font-size: 50px;
+ text-align: center; 
+
+}
+.enroll a{
+    text-decoration: none;
+    background-color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0f73ff;
+   
+    
+}
